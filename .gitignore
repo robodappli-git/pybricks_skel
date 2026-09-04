@@ -1,0 +1,24 @@
+# Environnements virtuels Python
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers d'état et caches VS Code (on conserve la conf .vscode/ dans Git)
+.vscode/.noactivation
+.vscode/*.log
+
+# Fichiers temporaires et métadonnées système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs et temporaires de build
+*.log
+*.tmp
+
